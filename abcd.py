@@ -1,4 +1,4 @@
-# import pandas as pd 
+import pandas as pd 
 # # pd.__version__
 # # L= [14,15,96,99,87]
 # # print(L)
@@ -26,3 +26,10 @@
 
 
 print("Hello world")
+import pandas as pd
+
+pd.options.display.max_rows = 9999
+
+df = pd.read_csv('data.csv')
+
+print(df) 
